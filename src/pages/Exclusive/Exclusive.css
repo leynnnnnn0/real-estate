@@ -1,0 +1,53 @@
+.exclusive {
+    font-family: "Libre Baskerville", serif;
+    padding: 3rem 10rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.exclusive h3 {
+    margin-bottom: 2rem;
+}
+
+.exclusive-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.more-listing {
+    align-self: center;
+    justify-self: center;
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 25rem;
+    margin-top: 2rem;
+
+}
+
+@media (max-width: 600px) {
+    .exclusive-list {
+    flex-direction: column;
+}
+.exclusive h3  {
+    font-size: 0.7rem;
+
+}
+
+.more-listing {
+    align-self: center;
+    justify-self: center;
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 25rem;
+    margin-top: 2rem;
+    font-size: 0.4rem;
+
+}
+}

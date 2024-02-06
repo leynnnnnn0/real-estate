@@ -1,0 +1,125 @@
+.footer {
+    height: 90vh;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 30%,
+        rgb(194, 194, 194) 10%,
+        rgb(194, 194, 194) 75%
+    );
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form-holder {
+    width: 700px;
+    background: black;
+    height: 250px;
+    align-self: center;
+    border-radius: 25rem;
+    margin-top: 4.5rem;
+    background: url("../../images/grey-aestetic-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-form-holder h3 {
+    font-size: 2rem;
+}
+
+.footer-form-holder input {
+    height: 2.3rem;
+    width: 500px;
+    border: none;
+    text-indent: 0.5rem;
+    border-radius: 25rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .footer {
+    height: 70vh;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 30%,
+        rgb(194, 194, 194) 30%,
+        rgb(194, 194, 194) 70%
+    );
+
+}
+.footer-form-holder {
+    height: 180px;
+    width: 600px;
+}
+.footer-form-holder h3 {
+    font-size: 1.5rem;
+}
+
+.footer-form-holder input {
+    height: 2rem;
+    width: 400px;
+}
+
+}
+
+
+@media (max-width: 1200px) {
+    .footer {
+    height: 70vh;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 30%,
+        rgb(194, 194, 194) 30%,
+        rgb(194, 194, 194) 70%
+    );
+
+}
+.footer-form-holder {
+    height: 150px;
+    width: 400px;
+}
+.footer-form-holder h3 {
+    font-size: 1rem;
+}
+
+.footer-form-holder input {
+    height: 1rem;
+    width: 300px;
+}
+
+}
+
+@media (max-width: 600px) {
+    .footer {
+    height: 40vh;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 35%,
+        rgb(194, 194, 194) 35%,
+        rgb(194, 194, 194) 40%
+
+    );
+
+}
+.footer-form-holder {
+    height: 120px;
+    width: 300px;
+}
+.footer-form-holder h3 {
+    font-size: 0.8rem;
+}
+
+.footer-form-holder input {
+    height: 1rem;
+    width: 200px;
+}
+
+}

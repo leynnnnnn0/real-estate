@@ -1,0 +1,31 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 90vh;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 50%,
+        rgb(42, 40, 40) 50%,
+        rgb(42, 40, 40) 100%
+
+    )
+}
+
+.home-page-banner {
+    align-self: center;
+    margin-top: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .home-page{
+        height: 55vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-page{
+        height: 25vh;
+    }
+}

@@ -1,0 +1,112 @@
+.about {
+    height: 50vh;
+    background: rgb(42, 40, 40);
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 3rem;
+    font-family: "Inter", sans-serif;
+}
+
+
+.about-image img {
+    height: 300px;
+    width: 800px;
+}
+
+.about-contents {
+    display: flex;
+}
+
+.about-text {
+    width: 400px;
+    margin-left: 2rem;
+    font-weight: lighter;
+}
+
+.about-text h5 {
+    margin-bottom: 0.5rem;
+}
+
+.about-text p {
+    font-size: 0.8rem;
+}
+
+.about-text button {
+    padding: 0.3rem 1rem;
+    border-radius: 25rem;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .about {
+        height: 40vh;
+    }
+    .about-image img {
+        width: 500px;
+        height: 200px;
+    }
+    .about-text {
+    width: 300px;
+    margin-left: 2rem;
+}
+}
+
+@media (max-width: 850px) {
+    .about {
+        height: 15vh;
+        padding-bottom: 1rem;
+    }
+    .about-image img {
+        width: 300px;
+        height: 150px;
+    }
+    .about-text h5, p {
+    width: 300px;
+    font-size: 0.7rem;
+}
+
+.about-text {
+    width: 100px;
+}
+
+.about-text p {
+    font-size: 0.5rem;
+    width: 150px;
+}
+.about-text button {
+    padding: 0.2rem;
+    font-size: 0.5rem;
+}
+}
+
+@media (max-width: 600px) {
+    .about {
+        height: 12vh;
+        padding-bottom: 0.5rem;
+    }
+    .about-image img {
+        width: 200px;
+        height: 120px;
+    }
+    .about-text h5, p {
+    width: 300px;
+    font-size: 0.7rem;
+}
+
+.about-text {
+    width: 100px;
+}
+
+.about-text p {
+    font-size: 0.5rem;
+    width: 150px;
+}
+.about-text button {
+    padding: 0.2rem;
+    font-size: 0.5rem;
+}
+}
